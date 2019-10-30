@@ -1,1 +1,2 @@
-**/hackerrank/*.jar
+#To exclude build files
+*.jar

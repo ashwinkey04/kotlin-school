@@ -5,6 +5,9 @@
 # Kotlin Learning repo
 This is my repository for learning Kotlin. I will try to push every piece of code that helps me learn Kotlin here. 
 
+### References
+[Envato tuts+](https://code.tutsplus.com/series/kotlin-from-scratch--cms-1209)
+
 ### Variable vs Value
 ```kotlin
 var nameofvar:Int =5 //Variable declaration syntax
