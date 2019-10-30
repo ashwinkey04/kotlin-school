@@ -17,31 +17,28 @@ import kotlin.ranges.*
 import kotlin.sequences.*
 import kotlin.text.*
 
-fun miniMaxSum(arr: Array<Int>): Unit {
-    var sum: Long
-    var summx: Long=0
-    var summn: Long=1000000000000000000
-    for (i in 0..4){
-        sum=0
-        for (a in 0..4){
-            if (a!=i) {
-                sum+=arr[a]
-            }
+fun miniMaxSum(arr: Array<Long>): Unit {
+    var sum: Long =arr.sum()
+    var mx: Long=0
+    var mn: Long=100000000000000000
+    for(i in 0..4){
+        if (arr[i]>mx){
+            mx=arr[i]
         }
-        if (summx<sum){
-            summx=sum
-        }
-        else if (summn>sum){
-            summn=sum
+        if(arr[i]<mn){
+            mn=arr[i]
         }
     }
+    
+    var summx: Long = sum-mn
+    var summn: Long = sum-mx
     print(summn)
-    print(" ")
+    print(' ')
     print(summx)
 }
 
 fun main(args: Array<String>) {
     val scan = Scanner(System.`in`)
-    val arr = scan.nextLine().split(" ").map{ it.trim().toInt() }.toTypedArray()
+    val arr = scan.nextLine().split(" ").map{ it.trim().toLong() }.toTypedArray()
     miniMaxSum(arr)
 }
