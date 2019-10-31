@@ -1,4 +1,3 @@
-[![official project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 ![GitHub top language](https://img.shields.io/github/languages/top/ashwinkey04/kotlin.svg?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ashwinkey04/kotlin.svg?color=green)
 
@@ -24,4 +23,4 @@ for(i in 1.rangeTo(5)){
 for(i in 10.downTo(1)){
   }
 //the above loop ranges in decreasing order from 10 to 1
-```
+'''

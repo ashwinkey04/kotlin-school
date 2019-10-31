@@ -1,2 +1,4 @@
 #To exclude build files
 *.jar
+/.vscode/*
+/.vscode
