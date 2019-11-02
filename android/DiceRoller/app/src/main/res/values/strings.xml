@@ -2,5 +2,6 @@
     <string name="app_name">Dice Roller</string>
     <string name="hello">Hello World!</string>
     <string name="count">1</string>
-    <string name="RollButton">roll</string>
+    <string name="RollButton">Bring up a dice</string>
+    <string name="RollIt">Roll ME!!</string>
 </resources>

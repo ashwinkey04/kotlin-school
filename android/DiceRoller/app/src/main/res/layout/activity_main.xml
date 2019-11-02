@@ -3,21 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/dice_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:id="@+id/count"
-        android:layout_gravity="center"
-        android:text="@string/count" />
-
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/empty_dice" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mygradient"
         android:layout_gravity="center_horizontal"
         android:id="@+id/roll_button"
         android:text="@string/RollButton" />
