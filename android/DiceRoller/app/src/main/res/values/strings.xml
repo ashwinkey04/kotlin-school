@@ -4,4 +4,5 @@
     <string name="count">1</string>
     <string name="RollButton">Bring up a dice</string>
     <string name="RollIt">Roll ME!!</string>
+    <string name="clear_button">Clear</string>
 </resources>

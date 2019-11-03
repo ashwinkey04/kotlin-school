@@ -24,4 +24,15 @@
         android:id="@+id/roll_button"
         android:text="@string/RollButton" />
 
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mygradient"
+        android:padding="15dp"
+        android:text="@string/clear_button"
+        android:visibility="invisible" />
+
 </LinearLayout>
