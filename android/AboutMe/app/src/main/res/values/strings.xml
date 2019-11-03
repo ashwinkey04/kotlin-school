@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AboutMe</string>
-    <string name="name">Android Dev!</string>
+    <string name="name">Hello from an Android Dev! (But I use iOS font :p)</string>
+    <string name="StarAttr">GoldenStar</string>
+    <string name="bio">Hey there!\n\n\nHere\'s a review of the Tesla Model S, because I couldn\'t type anything to fill this space up\n\nThe Tesla Model S is an all-electric executive saloon that combines amazing performance with zero tailpipe emissions, a luxurious, high-tech cabin and tremendous refinement.\n\nThe car is a little longer than a Mercedes E-Class, but its battery pack is arranged in a large, flat slab under the car, so there’s a surprising amount of room inside. You can even get the car with seven seats, although the two seats in the boot are really only suitable for small children.\n\nHowever, when you step inside the Tesla Model S, it’s not the space you’ll notice first.\n Instead, the huge 17-inch touch-screen display dominates the cabin and controls pretty much all of the Model S’s functions. The large screen may seem daunting at first, but having nearly everything controlled through this screen means there are far fewer buttons around the cabin.!!\n\n</string>
+    <string name="button">Done</string>
+    <string name="name_prompt">Type here and it stays!</string>
 </resources>
