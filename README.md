@@ -2,7 +2,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/ashwinkey04/kotlin.svg?color=green)
 
 # Kotlin Learning repo
-This is my repository for learning Kotlin. I will try to push every piece of code that helps me learn Kotlin here. 
+This is my repository for learning Kotlin. I will try to push every piece of code that helps me learn Kotlin here. Apps I built using kotlin can be found [here](https://github.com/ashwinkey04/MyAndroidSchool)
 
 ### References
 [Envato tuts+](https://code.tutsplus.com/series/kotlin-from-scratch--cms-1209)
