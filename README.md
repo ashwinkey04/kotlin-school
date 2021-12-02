@@ -1,5 +1,5 @@
-![GitHub top language](https://img.shields.io/github/languages/top/ashwinkey04/kotlin.svg?color=blue)
-![GitHub last commit](https://img.shields.io/github/last-commit/ashwinkey04/kotlin.svg?color=green)
+![GitHub top language](https://img.shields.io/github/languages/top/ashwinkey04/kotlin-school.svg?color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/ashwinkey04/kotlin-school.svg?color=green)
 
 # Kotlin Learning repo ✨
 This is my repository for learning Kotlin. I will try to push every piece of code that helps me learn Kotlin here. Apps I built using kotlin can be found [here](https://github.com/ashwinkey04/MyAndroidSchool)
@@ -50,14 +50,46 @@ val l = b?.length ?: -1 // '?:' elvis operator
 ```kotlin
 val l = b!!.length
 ```
-The not-null assertion operator (`!!`) converts any value to a non-null type and throws a NPE if the value is null.
-### :smiling_imp::smiling_imp: 
+The not-null assertion operator (`!!`) converts any value to a non-null type and throws a NPE if the value is null. 😈
 
 ##### Collections of Nullable Type
 If you have a collection of elements of a nullable type and want to filter non-null elements, you can do so by using  `filterNotNull`:
 ```kotlin
 val nullableList: List<Int?> = listOf(1, 2, null, 4)
 val intList: List<Int> = nullableList.filterNotNull() //1,2,4
+```
+
+### **Conditions**
+#### if...else
+Unlike other languages, the `if..else` statement in Kotlinhas the ability to assign a variable from the returned value of the  if..else statement.
+```kotlin
+val number = 13
+val result = if (number % 2 == 0) {
+print("$number is divisible by 2")
+} else {
+print("$number is not divisible by 2")// 13 is not divisible by 2
+} // result has the value "13 is not divisible by 2"
+```
+
+#### when
+Alternate of `switch` in other languages.
+```kotlin
+val number = 2
+when (number) { 
+    1 -> println("number is 1")
+    2 -> { //enclosed in braces for multiline body
+        println("number is 2") 
+        println("it is an even number")
+        //this will be executed
+    }
+    3,4 -> println("number is 3 OR 4") //values can also be combined
+}
+
+// when can also work without any argument like this
+when {
+number == 1 -> println("it is one")
+number == 2 -> println("it is two")
+}
 ```
 ### **Functions**
 ![image](https://user-images.githubusercontent.com/20596763/79878215-cfdb0c00-840a-11ea-86e4-fd3f094f1383.png)
