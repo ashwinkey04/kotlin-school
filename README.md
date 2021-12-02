@@ -1,7 +1,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/ashwinkey04/kotlin.svg?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ashwinkey04/kotlin.svg?color=green)
 
-# Kotlin Learning repo :sparkles: :sparkles:
+# Kotlin Learning repo ✨
 This is my repository for learning Kotlin. I will try to push every piece of code that helps me learn Kotlin here. Apps I built using kotlin can be found [here](https://github.com/ashwinkey04/MyAndroidSchool)
 
 **References:** 
@@ -9,9 +9,9 @@ This is my repository for learning Kotlin. I will try to push every piece of cod
 
 ### Variable vs Value
 ```kotlin
-var nameofvar:Int =5 //Variable declaration syntax
-val nameofval:Int =5 //Value declaration syntax
-//Variables can be changed while values can not be
+var nameofvar:Int =5 // Variable declaration syntax
+val nameofval:Int =5 // Value declaration syntax
+// Variables can be changed while values can not be
 ```
 ### Ranges inside loop
 ```kotlin
@@ -19,10 +19,10 @@ for(i in 1..5){
   }
 for(i in 1.rangeTo(5)){
   }
-//above loops are in range 1 to 5
+// above loops are in range 1 to 5
 for(i in 10.downTo(1)){
   }
-//the above loop ranges in decreasing order from 10 to 1
+// the above loop ranges in decreasing order from 10 to 1
 for(i in 1..10  step 2 ) // 1, 3, 5, 7, 9
 ```
 ### **Null Safety**
@@ -30,8 +30,8 @@ Kotlin is a null safe language! It can not hold null values by default unless ex
 ```kotlin 
 val x:Int = null //Throws an error
 val x:Int ?= null //Suffixing ? to a type accepts null
-//Since the '?' operator is used for specifying nullability,
-//conditional operator does not exist in kotlin
+// Since the '?' operator is used for specifying nullability,
+// conditional operator does not exist in kotlin
 ```
 ##### Safe call
 ```kotlin
@@ -43,8 +43,8 @@ This returns `b.length` if `b` is not null, and _null_ otherwise. The type of th
 
 When we have a nullable reference `b`, we can say "if `b` is not null, use it, otherwise use some non-null value":
 ```kotlin
-val l = b?.length ?: -1 //'?:' elvis operator
-//here b will use -1 if it is null
+val l = b?.length ?: -1 // '?:' elvis operator
+// here b will use -1 if it is null
 ```
 ##### Not-null assertion (!!)
 ```kotlin
